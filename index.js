@@ -28,6 +28,7 @@ function mapToSquare(sourceArray){
   return newArray
 }
 function reduceToTotal(sourceArray, startingPoint){
+  
   return value
 }
 function reduceToAllTrue(sourceArray){
