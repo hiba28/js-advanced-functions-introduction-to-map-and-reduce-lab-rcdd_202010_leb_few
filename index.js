@@ -7,10 +7,13 @@ function mapToNegativize(sourceArray){
   return newArray
 }
 function mapToNoChange(sourceArray){
-  return newArray
+  return newArray = sourceArray
 }
 function mapToDouble(sourceArray){
-
+  let newArray = []
+  for (let i = 0; i < sourceArray.length; i++) {
+    newArray[i] = sourceArray[i]*2
+  }
   return newArray
 }
 function mapToSquare(sourceArray){
