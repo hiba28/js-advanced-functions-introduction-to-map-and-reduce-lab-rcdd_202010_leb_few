@@ -32,7 +32,7 @@ function reduceToTotal(sourceArray, startingPoint){
      startingPoint = 0
    }
   else {
-    sourceArray.forEach((elem) =>{
+    sourceArray.forEach(elem =>{
       startingPoint += elem
     })
   }
