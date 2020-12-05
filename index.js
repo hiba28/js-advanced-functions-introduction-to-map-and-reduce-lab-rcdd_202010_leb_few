@@ -1,12 +1,16 @@
 // Your code here
 function mapToNegativize(sourceArray){
-  let newArray = sourceArray * -1
+  let newArray = []
+  for (let i = 0; i < sourceArray.length; i++) {
+    let newArray = sourceArray * -1
+  }
   return newArray
 }
 function mapToNoChange(sourceArray){
   return newArray
 }
 function mapToDouble(sourceArray){
+  
   return newArray
 }
 function mapToSquare(sourceArray){
