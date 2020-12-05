@@ -17,6 +17,10 @@ function mapToDouble(sourceArray){
   return newArray
 }
 function mapToSquare(sourceArray){
+  let newArray = []
+  sourceArray.forEach(elem =>{
+    newArray = elem**2
+  })
   return newArray
 }
 function reduceToTotal(sourceArray, startingPoint){
