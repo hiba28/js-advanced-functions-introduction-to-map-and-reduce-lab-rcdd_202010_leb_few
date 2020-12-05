@@ -1,13 +1,13 @@
 // Your code here
 function mapToNegativize(sourceArray){
-  return sourceArray
+  return newArray
 }
 function mapToNoChange(sourceArray){
-  return sourceArray
+  return newArray
 }
 function mapToDouble(sourceArray){
-  return sourceArray
+  return newArray
 }
 function mapToSquare(sourceArray){
-  return sourceArray
+  return newArray
 }
