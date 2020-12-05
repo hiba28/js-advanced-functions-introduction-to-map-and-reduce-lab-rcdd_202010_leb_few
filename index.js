@@ -28,7 +28,7 @@ function mapToSquare(sourceArray){
   return newArray
 }
 function reduceToTotal(sourceArray, startingPoint){
-  if(startingPoint){
+  if(!startingPoint){
     sourceArray.forEach(elem =>{
       let value += elem
     })
