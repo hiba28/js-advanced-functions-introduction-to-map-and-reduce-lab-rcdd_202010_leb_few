@@ -33,10 +33,10 @@ function reduceToTotal(sourceArray, startingPoint){
    }
   else {
     sourceArray.forEach(elem =>{
-      startingPoint += elem
+      let value += elem
     })
   }
-  return startingPoint
+  return value
 }
 
 function reduceToAllTrue(sourceArray){
