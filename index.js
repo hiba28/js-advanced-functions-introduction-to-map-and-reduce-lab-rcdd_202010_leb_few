@@ -10,7 +10,7 @@ function mapToNoChange(sourceArray){
   return newArray
 }
 function mapToDouble(sourceArray){
-  
+
   return newArray
 }
 function mapToSquare(sourceArray){
