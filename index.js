@@ -7,7 +7,10 @@ function mapToNegativize(sourceArray){
   return newArray
 }
 function mapToNoChange(sourceArray){
-  let newArray = sourceArray
+  let newArray = []
+  sourceArray.forEach(elem =>{
+    newArray.push(elem)
+  })
   return newArray
 }
 function mapToDouble(sourceArray){
