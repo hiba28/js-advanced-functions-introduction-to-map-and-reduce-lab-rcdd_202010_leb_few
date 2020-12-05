@@ -30,10 +30,9 @@ function mapToSquare(sourceArray){
 function reduceToTotal(sourceArray, startingPoint){
   if (startingPoint === NaN) {
     sourceArray.forEach(elem =>{
-        startingPoint += elem
+        return startingPoint += elem
       })
   }
-  return startingPoint
 }
 sourceArray = [1,2,3]
 startingPoint = 0
