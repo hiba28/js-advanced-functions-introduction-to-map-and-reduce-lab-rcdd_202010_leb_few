@@ -28,15 +28,14 @@ function mapToSquare(sourceArray){
   return newArray
 }
 function reduceToTotal(sourceArray, startingPoint){
-  for (let i = 0; i < sourceArray.length; i++) {
-    startingPoint += sourceArray[i]
-  }
+  sourceArray.forEach(elem =>{
+      startingPoint += elem 
+    })
   return startingPoint
 }
 sourceArray = [1,2,3]
 startingPoint = 0
 reduceToTotal(sourceArray,startingPoint)
-
 function reduceToAllTrue(sourceArray){
   for (let i = 0; i < sourceArray.length; i++) {
     if(sourceArray[i]) return true
