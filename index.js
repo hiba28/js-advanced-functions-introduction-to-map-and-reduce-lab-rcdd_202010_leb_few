@@ -29,9 +29,10 @@ function mapToSquare(sourceArray){
 }
 function reduceToTotal(sourceArray, startingPoint){
   if(sourceArray.length === 0){
-     startingPoint = 0 }
+     startingPoint = 0 
+   }
   else {
-    sourceArray.forEach(elem =>{
+    sourceArray.forEach((elem) =>{
       startingPoint += elem
     })
   }
