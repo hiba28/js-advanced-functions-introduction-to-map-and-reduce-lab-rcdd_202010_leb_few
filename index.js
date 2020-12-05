@@ -7,7 +7,8 @@ function mapToNegativize(sourceArray){
   return newArray
 }
 function mapToNoChange(sourceArray){
-  return newArray = sourceArray
+  let newArray = sourceArray
+  return newArray
 }
 function mapToDouble(sourceArray){
   let newArray = []
