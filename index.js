@@ -1,5 +1,6 @@
 // Your code here
 function mapToNegativize(sourceArray){
+  let newArray = sourceArray * -1
   return newArray
 }
 function mapToNoChange(sourceArray){
