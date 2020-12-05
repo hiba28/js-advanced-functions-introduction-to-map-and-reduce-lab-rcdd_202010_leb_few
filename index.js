@@ -32,7 +32,7 @@ function reduceToTotal(sourceArray, startingPoint = 0){
   if (startingPoint === "NaN") {
     startingPoint = parseInt(startingPoint)
     sourceArray.forEach(elem =>{
-        return startingPoint += elem
+        sum += elem
       })
   }
 }
