@@ -28,6 +28,7 @@ function mapToSquare(sourceArray){
   return newArray
 }
 function reduceToTotal(sourceArray, startingPoint = 0){
+  let sum = startingPoint
   if (startingPoint === "NaN") {
     startingPoint = parseInt(startingPoint)
     sourceArray.forEach(elem =>{
