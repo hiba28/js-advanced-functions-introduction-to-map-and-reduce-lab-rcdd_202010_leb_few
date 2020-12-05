@@ -43,7 +43,6 @@ function reduceToAllTrue(sourceArray){
     if(sourceArray[i]) return true
     return false
   }
-
 }
 function reduceToAnyTrue(sourceArray){
   return value
