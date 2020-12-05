@@ -31,7 +31,7 @@ function reduceToTotal(sourceArray, startingPoint){
   if (startingPoint === NaN) {
     sourceArray.forEach(elem =>{
         startingPoint += elem
-      })  
+      })
   }
   return startingPoint
 }
