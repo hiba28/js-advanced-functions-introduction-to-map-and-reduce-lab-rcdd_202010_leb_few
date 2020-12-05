@@ -36,6 +36,7 @@ function reduceToTotal(sourceArray, startingPoint){
 sourceArray = [1,2,3]
 startingPoint = 0
 reduceToTotal(sourceArray,startingPoint)
+
 function reduceToAllTrue(sourceArray){
   for (let i = 0; i < sourceArray.length; i++) {
     if(sourceArray[i]) return true
