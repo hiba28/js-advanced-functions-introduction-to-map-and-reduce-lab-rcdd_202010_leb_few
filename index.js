@@ -41,11 +41,11 @@ function reduceToTotal(sourceArray, startingPoint){
 
 function reduceToAllTrue(sourceArray){
   for (let i = 0; i < sourceArray.length; i++) {
-    sourceArray[i] ? return true || return false
+    sourceArray[i] ? return true : return false
   }
 }
 function reduceToAnyTrue(sourceArray){
   for (let i = 0; i < sourceArray.length; i++) {
-    !sourceArray[i] ? return false || return true
+    !sourceArray[i] ? return false : return true
   }
 }
