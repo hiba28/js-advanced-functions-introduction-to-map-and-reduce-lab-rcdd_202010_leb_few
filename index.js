@@ -32,7 +32,7 @@ function reduceToTotal(sourceArray, startingPoint){
       startingPoint += elem
     })
   }
-  return value
+  return startingPoint
 }
 
 function reduceToAllTrue(sourceArray){
