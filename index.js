@@ -20,7 +20,7 @@ function mapToDouble(sourceArray){
 function mapToSquare(sourceArray){
   let newArray = []
   sourceArray.forEach((elem) =>
-    newArray = elem*elem
+    newArray[i] = elem*elem
   )
   return newArray
 }
