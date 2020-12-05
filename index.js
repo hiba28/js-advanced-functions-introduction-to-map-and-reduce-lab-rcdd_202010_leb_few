@@ -41,13 +41,13 @@ reduceToTotal(sourceArray,startingPoint)
 
 function reduceToAllTrue(sourceArray){
   for (let i = 0; i < sourceArray.length; i++) {
-    if(!sourceArray[i]) return true
-    else return false
+    if(!sourceArray[i]) return false
+    else return true
   }
 }
 function reduceToAnyTrue(sourceArray){
   for (let i = 0; i < sourceArray.length; i++) {
-    if(sourceArray[i]) return false
-    else return true
+    if(sourceArray[i]) return true
+    else return false
   }
 }
