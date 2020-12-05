@@ -28,10 +28,11 @@ function mapToSquare(sourceArray){
   return newArray
 }
 function reduceToTotal(sourceArray, startingPoint){
-  sourceArray.forEach(elem =>{
-      startingPoint += elem
-    })
-    startingPoint = parseInt(startingPoint)
+  if (startingPoint === NaN) {
+    sourceArray.forEach(elem =>{
+        startingPoint += elem
+      })  
+  }
   return startingPoint
 }
 sourceArray = [1,2,3]
