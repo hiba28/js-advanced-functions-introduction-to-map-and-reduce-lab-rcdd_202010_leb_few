@@ -45,5 +45,7 @@ function reduceToAllTrue(sourceArray){
   }
 }
 function reduceToAnyTrue(sourceArray){
-  return value
+  for (let i = 0; i < sourceArray.length; i++) {
+    !sourceArray[i] ? return false || return true
+  }
 }
