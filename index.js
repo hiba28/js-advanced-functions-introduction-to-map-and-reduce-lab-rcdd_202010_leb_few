@@ -12,11 +12,11 @@ function mapToSquare(sourceArray){
   return newArray
 }
 function reduceToTotal(sourceArray, startingPoint){
-  
+
 }
 function reduceToAllTrue(sourceArray){
-  
+
 }
 function reduceToAnyTrue(sourceArray){
-  
+
 }
